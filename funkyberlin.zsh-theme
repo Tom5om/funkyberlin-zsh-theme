@@ -88,7 +88,7 @@ _LIBERTY="$_LIBERTY%{$reset_color%}"
 
 
 
-_TOP="$_USERNAME $_PATH"
+_TOP="$_PATH"
 _BOTTOM="%* > $_LIBERTY "
 
 
