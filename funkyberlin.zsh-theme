@@ -95,7 +95,7 @@ _BOTTOM="%* > $_LIBERTY "
 
 berlin_precmd () {
   print
-  _VERSIONCTRL="$(git_prompt)$(nvm_prompt_info)"
+  _VERSIONCTRL="$(git_prompt)"
   print -P "$_TOP $_VERSIONCTRL"
 }
 
